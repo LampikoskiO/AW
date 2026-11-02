@@ -2,6 +2,6 @@ USE SalesDB;
 GO
 SELECT customer_id, firstname, lastname, country
 FROM dbo.Customer
-WHERE country = N'Germany'
+WHERE country = N'Sweden'
 ORDER BY customer_id;
 GO
